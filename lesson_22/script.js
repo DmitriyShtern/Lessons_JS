@@ -1,38 +1,37 @@
 "use strict"
 
 
-function firstTask(i) {
-    while (i <= 10) {
-    console.log(i);
-    i++;
+for (let i = result.length; i < arr.length; i++) {
+    result[i] = arr[i];
+    
 }
+
+for (let i = 0; i < data.length; i++) {
+    if (typeof(data[i]) == 'number') {
+        data[i] = data[i] * 2
+    } else if (typeof(data[i]) == 'string') {
+        data[i] = data[i] + `${' - done'}`
+    }
+    
+}    
+
+
+const data = [5, 10, 'Shopping', 20, 'Homework'];
+let result = [];
+
+result = data.reverse();
+
+console.log(result);
+
+
+while (data.length > 0) {
+    
+    console.log(data.length)
+
+    data.length--
 }
-firstTask(5)
 
-
-
-
-// while (num < 55) {
-//     console.log(num);
-//     num++;
-// }
-
-
-// do {
-//     console.log(num);
-//     num++;
-// }
-// while (num < 55);
-
-
-// let num = 50;
-
-// for (let i = 1; i < 8; i++) {
-//     console.log(num);
-//     num++;
-// }
-
-
+    
 
 
 
