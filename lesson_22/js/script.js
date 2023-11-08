@@ -12,16 +12,16 @@ let personalMovieDB = {
     
 };
 
-// ()
-// if (personalMovieDB.count < 10) {
-//     alert('Просмотренно довольно мало фильмов')
-// } else if (personalMovieDB.count > 10 && personalMovieDB.count < 30 ) {
-//     alert('Вы классный зритель')
-// } else if (personalMovieDB.count > 30) {
-//     alert('Вы киноман')
-// } else {
-//     alert('Произошла ошибка')
-// }
+
+if (personalMovieDB.count < 10) {
+    alert('Просмотренно довольно мало фильмов')
+} else if (personalMovieDB.count > 10 && personalMovieDB.count < 30 ) {
+    alert('Вы классный зритель')
+} else if (personalMovieDB.count > 30) {
+    alert('Вы киноман')
+} else {
+    alert('Произошла ошибка')
+}
 
 
 // function promis(x) {
