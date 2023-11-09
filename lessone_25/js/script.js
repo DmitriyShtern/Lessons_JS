@@ -21,14 +21,15 @@
 
 
 function getMathResult(firstNumber, secondNumber) {
-
-    let a = "";
-
+    
     if (typeof(secondNumber) == 'string' || secondNumber < 1) {
         a += firstNumber;
-        console.log(a)
+        a = Number(a);
         return a;
     }
+    
+    
+    let a = "";
 
     for (let i = 0; i < secondNumber; i++) {
         
@@ -40,11 +41,22 @@ function getMathResult(firstNumber, secondNumber) {
         }
 
     };
-
     return a;
 
 }
 
 
-let c = getMathResult(10, "jb");
-console.log(c);
+let c = getMathResult(10, '');
+
+
+
+
+
+
+
+
+
+
+
+
+
